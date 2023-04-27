@@ -13,7 +13,19 @@ def Helloword():
 @api.route('/Rent-Forecast',methods=['Post'])
 def Prevision():
     try:
-        response=model.Predict()
+        bodyData= request.get_json()
+        response=model.Predict([bodyData['city'],\
+            bodyData['area'],\
+            bodyData['rooms'],\
+            bodyData['bathroom'],\
+            bodyData['parking spaces'],\
+            bodyData['floor'],\
+            bodyData['animal'],\
+            bodyData['furniture'],\
+            bodyData['hoa (R$)'],\
+            bodyData['rent amount (R$)'],\
+            bodyData['property tax (R$)']])
+    
         return response
     except:
         return {"Error":500}
