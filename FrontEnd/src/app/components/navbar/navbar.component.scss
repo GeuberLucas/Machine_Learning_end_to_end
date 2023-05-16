@@ -1,0 +1,61 @@
+:host ::ng-deep {
+  .p-menubar {
+    width: 100%;
+    height: 90px;
+    position: fixed;
+    background-color: transparent;
+    .p-menubar-start {
+      width: 35%;
+      padding-left: 4%;
+      img {
+        width: 10%;
+      }
+    }
+
+    ul {
+      align-items: center;
+      height: 100%;
+      width: 848.56px;
+    }
+    .p-menuitem {
+      width: 25%;
+      height: 100%;
+    }
+    .p-menuitem:hover {
+      background-color: #979797;
+    }
+    .p-menuitem-text {
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      display: flex;
+      align-items: center;
+      text-align: center;
+
+      color: rgba(255, 255, 255, 0.96);
+    }
+  }
+  .label {
+    position: absolute;
+    height: 75px;
+    left: 0px;
+    right: 0px;
+    top: 9px;
+
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: rgba(255, 255, 255, 0.96);
+  }
+
+  // .icon{
+  //   height: 70;
+}

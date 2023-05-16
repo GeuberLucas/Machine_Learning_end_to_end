@@ -2,7 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { NavbarComponent } from './navbar/navbar.component';
 import { ErrorDynamicComponent } from './error-dynamic/error-dynamic.component';
-
+import { MenubarModule } from 'primeng/menubar';
 
 
 @NgModule({
@@ -11,7 +11,8 @@ import { ErrorDynamicComponent } from './error-dynamic/error-dynamic.component';
     ErrorDynamicComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    MenubarModule
   ],
   exports:[
     NavbarComponent,
