@@ -12,10 +12,10 @@ export class NavbarComponent implements OnInit {
 
   ngOnInit(): void {
     this.navItens = [
-      { label: 'Inicio' },
-      { label: 'Simulação' },
-      { label: 'Sobre' },
-      { label: 'Contato' },
+      { label: 'Inicio', routerLink: ['/home'] },
+      { label: 'Simulação', routerLink: ['/simulation']  },
+      { label: 'Sobre', routerLink: ['/about']  },
+      { label: 'Contato', routerLink: ['/contact']  },
     ];
   }
 }

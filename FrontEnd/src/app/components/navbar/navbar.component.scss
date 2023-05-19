@@ -5,8 +5,8 @@
     position: fixed;
     background-color: transparent;
     .p-menubar-start {
-      width: 35%;
-      padding-left: 4%;
+      width: 30%;
+      padding-left: 2%;
       img {
         width: 10%;
       }
@@ -18,43 +18,49 @@
       width: 848.56px;
     }
     .p-menuitem {
+      display:flex;
       width: 25%;
-      height: 100%;
+      height: 90px;
+      justify-content: center;
+
     }
+
     .p-menuitem:hover {
-      background-color: #979797;
+      background-color: #97979759;
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+    }
+
+    .p-menuitem-link{
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      text-decoration: none;
+      overflow: hidden;
+      width: 100%;
+      position: relative;
+      justify-content: center;
+    }
+
+    .p-menuitem-link-active{
+
+      justify-content: center;
+      width: 100%;
+      border-top: 5px solid #ffffff;
     }
     .p-menuitem-text {
       font-family: "Inter";
       font-style: normal;
-      font-weight: 400;
+      font-weight:lighter;
       font-size: 20px;
       line-height: 24px;
       display: flex;
       align-items: center;
       text-align: center;
-
-      color: rgba(255, 255, 255, 0.96);
+      color: rgb(255, 255, 255);
     }
   }
-  .label {
-    position: absolute;
-    height: 75px;
-    left: 0px;
-    right: 0px;
-    top: 9px;
 
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: rgba(255, 255, 255, 0.96);
-  }
 
   // .icon{
   //   height: 70;
