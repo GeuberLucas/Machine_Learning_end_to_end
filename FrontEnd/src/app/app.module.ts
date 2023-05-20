@@ -7,7 +7,7 @@ import { CommonModule } from '@angular/common';
 import { ComponentsModule } from './components/components.module';
 import { PagesModule } from './pages/pages.module';
 import { MenubarModule } from 'primeng/menubar';
-
+import { ButtonModule } from 'primeng/button';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +18,8 @@ import { MenubarModule } from 'primeng/menubar';
     AppRoutingModule,
     ComponentsModule,
     PagesModule,
-    MenubarModule
+    MenubarModule,
+    ButtonModule
   ],
   providers: [],
   bootstrap: [AppComponent],

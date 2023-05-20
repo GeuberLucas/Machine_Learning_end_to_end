@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { SimulationComponent } from './simulation/simulation.component';
 import { AboutComponent } from './about/about.component';
 import { ContactComponent } from './contact/contact.component';
+import { ButtonModule } from 'primeng/button';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { ContactComponent } from './contact/contact.component';
   ],
   imports: [
     CommonModule,
-    PagesRoutingModule
+    PagesRoutingModule,
+    ButtonModule
   ]
 })
 export class PagesModule { }

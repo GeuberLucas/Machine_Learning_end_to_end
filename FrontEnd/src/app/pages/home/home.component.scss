@@ -1,0 +1,40 @@
+.title {
+  position: relative;
+  width: 66.75%;
+  height: 21.16%;
+  left: 20%;
+  margin-top: 2%;
+  font-family: "Horizon";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60pt;
+  line-height: 110px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  justify-content: center;
+}
+
+.textContent {
+  font-family: "Itim";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30pt;
+  line-height: 40px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+}
+
+.textAndbutton{
+  position: relative;
+  left: 57.56%;
+  width: 32.5%;
+  margin-top: 18%;
+  padding: 15px;
+}

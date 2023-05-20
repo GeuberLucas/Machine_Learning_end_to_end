@@ -1,18 +1,20 @@
-.background{
+.background {
   background-color: black;
-  background-image: url('../assets/images/three-house-banneros_16.png');
+  background-image: url("../assets/images/three-house-banneros_16.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  width:100% ;
+  width: 100%;
   height: 100%;
   position: fixed;
-
 }
 
 html {
   overflow: hidden !important;
-
 }
 
-
-
+.content {
+  padding-top: 6%;
+  padding-left: 1%;
+  padding-left: 1%;
+  padding-bottom: 6%;
+}
