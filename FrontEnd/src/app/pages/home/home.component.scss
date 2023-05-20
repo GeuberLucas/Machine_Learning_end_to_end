@@ -1,14 +1,11 @@
 .title {
   position: relative;
-  width: 66.75%;
-  height: 21.16%;
-  left: 20%;
-  margin-top: 2%;
+  left: 4vw;
+  margin-top: 2vw;
   font-family: "Horizon";
   font-style: normal;
   font-weight: 700;
-  font-size: 60pt;
-  line-height: 110px;
+  font-size: 5vw;
   display: flex;
   align-items: center;
   text-align: center;
@@ -20,8 +17,8 @@
   font-family: "Itim";
   font-style: normal;
   font-weight: 400;
-  font-size: 30pt;
-  line-height: 40px;
+  font-size: 2.5vw;
+  line-height: 2.5vw;
   display: flex;
   align-items: center;
   text-align: center;
@@ -31,10 +28,55 @@
   justify-content: flex-end;
 }
 
-.textAndbutton{
-  position: relative;
-  left: 57.56%;
-  width: 32.5%;
-  margin-top: 18%;
-  padding: 15px;
+.textAndbutton {
+  display: flex;
+  position: absolute;
+  top: 65vh;
+  left: 57vw;
+  width: 32vw;
+  padding: 1vw;
+  justify-content: center;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+:host ::ng-deep {
+  .p-button {
+
+    margin-top: 2vh;
+    width: 20vw;
+    height: 10vh;
+    background: rgba(44, 72, 216, 0.21);
+    backdrop-filter: blur(2px);
+    /* Note: backdrop-filter has minimal browser support */
+    border: 0;
+    border-radius: 1vw;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  .p-button:hover {
+    background: rgba(44, 72, 216, 0.7);
+
+  }
+  .p-button-label {
+    font-family: "Ubuntu Mono";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2.2vw;
+    /* line-height: 40px; */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    padding-right: 1vw;
+    padding-left: 1vw;
+    align-content: center;
+    justify-content: flex-start;
+  }
+
+  .p-button-icon {
+    color: #ffffff;
+    padding-right: 1vw;
+    font-size: 3.5vw;
+  }
 }
