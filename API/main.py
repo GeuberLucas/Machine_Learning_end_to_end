@@ -2,7 +2,7 @@ import BancoDeDados.database as db
 from flask import Flask, make_response,request
 import joblib
 from datetime import datetime
-
+import pathlib 
 #Instancia
 api=Flask(__name__)
 
@@ -13,7 +13,8 @@ try:
 except:
     lg.CriaTabela()
 #load model
-model= joblib.load('D:\projetos\Estudos\Ia\Machine learning\Machine_Learning_end_to_end\model\Modelo_Floresta_Aleatoria_v1.pkl')
+path= pathlib.Path('./model/Modelo_Floresta_Aleatoria_v1.pkl').absolute()
+model= joblib.load(path)
 
 @api.route('/Welcome',methods=['GET'])
 def Helloword():
