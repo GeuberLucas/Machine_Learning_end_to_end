@@ -1,0 +1,38 @@
+.navbar{
+ background-color: transparent;
+ font-family: "Poppins", sans-serif;
+}
+
+.navbar-brand{
+  color: white;
+}
+
+.navbar-nav{
+  width: 10vw;
+}
+.nav-link{
+  width: 7vw;
+  color: white;
+  font-size: large;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.nav-link:hover{
+  background-color: #0029FF;
+
+  opacity: 0.9;
+}
+
+.nav-link.active{
+  background-color: rgba(44, 72, 216,0.5);
+  color: white;
+  opacity: 0.9;
+}
+
+.navbar-toggler{
+  border-color: white;
+}
+

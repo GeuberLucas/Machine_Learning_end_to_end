@@ -34,9 +34,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "node_modules/primeng/resources/primeng.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -75,10 +79,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "SimulaTech:build:production"
+              "buildTarget": "SimulaTech:build:production"
             },
             "development": {
-              "browserTarget": "SimulaTech:build:development"
+              "buildTarget": "SimulaTech:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -86,7 +90,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "SimulaTech:build"
+            "buildTarget": "SimulaTech:build"
           }
         },
         "test": {
@@ -102,13 +106,15 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.scss"
+              "src/styles.scss",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+            ]
           }
         }
       }
     }
-  },
-  "defaultProject": "SimulaTech"
+  }
 }
