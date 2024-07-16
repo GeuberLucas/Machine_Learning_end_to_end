@@ -1,0 +1,51 @@
+.title{
+  margin-left: 48rem;
+  .simpleWord{
+    font-size: 7rem;
+    margin-left: 5rem;
+    margin-bottom: -2rem;
+  }
+  .rentWord{
+    font-size: 7rem;
+    margin-left: 11rem;
+    margin-bottom: -1.8rem;
+  }
+  .aiword{
+    font-family: 'Pridi', serif;
+    font-weight: 400;
+    font-size: 7rem;
+    margin-left: 11rem;
+    img{
+      width: 6rem;
+      height: 6rem;
+    }
+  }
+}
+
+.cta{
+  background-color: rgba(217, 217, 217,0.6);
+
+  margin-left:  48rem;
+  border-radius: 15px;
+  padding: 15px;
+  width: 43rem;
+  .cta__heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    color: #000;
+  }
+  .btn{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    border-radius: 15px;
+    background-color: #010132;
+    color: #FFF;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    &:hover{
+      background-color: #61DAFF;
+      color: #000;
+    }
+  }
+}

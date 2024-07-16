@@ -1,8 +1,26 @@
 nav{
-
+  height: 50px;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
   img{
-    width: 5rem;
-    height: 5rem;
+    margin-top: 1.3rem;
+    width: 4rem;
+    height: 4rem;
+  }
+
+  .collapse.navbar-collapse.justify-content-end{
+    margin-top: -0.7rem;
+    margin-right: 30rem;
+    .nav-tabs{
+      border-bottom: 1px #969696 solid;
+      .nav-link.active{
+        background-color: transparent;
+        border: 0;
+        color: white;
+        border-bottom: 1px #fff solid;
+      }
+    }
+
   }
 
 }
